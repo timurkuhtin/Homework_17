@@ -12,8 +12,8 @@ namespace Homework_17
         public int Rate { get; set; }
         public DateTime StartedDate { get; set; }
         public int EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public List<Employee> Employee { get; set; }
         public int ProjectId { get; set; }
-        public Project Project { get; set; }
+        public List<Project> Project { get; set; }
     }
 }

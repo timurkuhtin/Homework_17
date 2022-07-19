@@ -14,9 +14,9 @@ namespace Homework_17
         public DateTime HiredDate { get; set; }
         public DateTime DateOfBirth { get; set; }
         public int OfficeId { get; set; }
-        public Office Office { get; set; }
+        public List<Office> Office { get; set; }
         public int TitleId { get; set; }
-        public Title Title { get; set; }        
+        public List<Title> Title { get; set; }        
         public EmployeeProject EmployeeProject { get; set; }        
     }
 }
